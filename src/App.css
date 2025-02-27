@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  background-color: #eef5f9;
+  color: #000000;
+}
+
+/* Contenedor principal */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+/* Botones */
+.button, .button2 {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.button:hover, .button2:hover {
+  background-color: #003d80;
+}
+
+.logout {
+  background-color: #d9534f;
+}
+
+.logout:hover {
+  background-color: #c9302c;
+}
+
+/* Panel de administración */
+.admin-panel {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgb(0, 0, 0);
+  text-align: center;
+  width: 40%;
+}
+
+.admin-panel h2 {
+  color: #0056b3;
+  margin-bottom: 15px;
+}
+
+.user-card {
+  text-align: left;
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+.user-card p {
+  margin: 5px 0;
+}
+
+.user-card button {
+  width: 100%;
+}
+
+/* Formularios */
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #0056b3;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.input-field:focus {
+  border-color: #0056b3;
+  background-color: #fff;
+}
+
+.error, .error-message {
+  color: #d9534f;
+  font-size: 14px;
+}
+
+.success-message {
+  color: #28a745;
+  font-size: 14px;
+}
+
+/* Botón de envío */
+button[type="submit"] {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #003d80;
+}
+
+/* Editar usuario */
+.EditarUsuario-container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.EditarUsuario-container h3 {
+  margin-bottom: 15px;
+  text-align: center;
+  color: #0056b3;
+}
+
+.EditarUsuario-form .form-group {
+  margin-bottom: 15px;
+}
+
+.EditarUsuario-form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.EditarUsuario-form input:focus {
+  border-color: #0056b3;
+  background-color: #fff;
+}
+
+.EditarUsuario-form button[type="submit"] {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.EditarUsuario-form button[type="submit"]:hover {
+  background-color: #003d80;
+}
+
+/* Botón de eliminar */
+.button2 {
+  background-color: #0052b5;
+  margin-top: 10px;
+  color: white;
+}
+
+.button2:hover {
+  background-color: #0a1729;
+}
+
+/*Foto*/
+.user-photo {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #0056b3;
+}
+
+
