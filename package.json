@@ -10,10 +10,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "axios": "^1.7.9",
+    "@react-pdf/renderer": "^4.2.2",
+    "axios": "^1.8.1",
+    "chart.js": "^4.4.8",
+    "pdfjs-dist": "^4.10.38",
     "react": "^19.0.0",
+    "react-chartjs-2": "^5.3.0",
     "react-dom": "^19.0.0",
-    "react-router-dom": "^7.1.5"
+    "react-pdf": "^9.2.1",
+    "react-router-dom": "^7.1.5",
+    "recharts": "^2.15.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.19.0",

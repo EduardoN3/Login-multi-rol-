@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { loginUser } from '../services/api'; 
+import { loginUser } from '../services/api';
 import '../App.css';
 
 const Login = ({ handleLoginSuccess }) => {

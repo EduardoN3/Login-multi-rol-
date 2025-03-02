@@ -43,7 +43,7 @@ const Registro = () => {
   };
 
   return (
-    <div className="container">
+    <div className="registro-container">
       <h2>Registro de Usuario</h2>
       <form onSubmit={handleRegister} className="form" encType="multipart/form-data">
         <fieldset>
